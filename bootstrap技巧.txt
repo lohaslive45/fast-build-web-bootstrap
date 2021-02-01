@@ -1,0 +1,40 @@
+bootstrap是一種開發網頁用的framework
+而framework稱為框架，意思是已經幫你預寫好的網站框架。
+
+
+(1.)加入插件連結:
+
+當你在html檔案 的<head>標籤內，
+加入bootstrap的 css & js連結(只有此類js的framwork能放在<head>標籤內)
+
+以下為bootstrap官網>>docs下的 css & js連結(2021-1-20 bootstrap v5.0)
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+
+(2.)呼叫框架使用
+
+bootstrap官網>>docs(上方欄位)>>layout & content....(左側欄位)
+
+裡面有撰寫好框架的 特定名稱 可以直接使用此命名取的已設定好的格式
+
+(3.)成果
+
+ex.<div class="container">內你打上的內容，全都會在左右兩側留白(無須再調整margin or padding)，
+且會內容區塊會自動適應螢幕大小。
+
+ex.<div class="col-md-12">代表此內容區塊占用螢幕12格=全螢幕寬度
+(預設螢幕最大寬度為12格)
+>>使用說明可在以下位置找到
+bootstrap官網>>docs(上方欄位)>>layout(左側欄位)>>grid(layout內)
+
+ex.<div class="col-md-8 offset-md-2 text-center">
+此內容占用8格(全部寬度為12格)，並且左邊空出2格，且內容在8格內左右置中
+>>使用說明可在以下位置找到
+bootstrap官網>>docs(上方欄位)>>layout(左側欄位)>>grid(layout內)
+
+
+
+

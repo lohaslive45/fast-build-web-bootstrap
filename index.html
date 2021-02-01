@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Party派對</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+        <!-- bootstrap - css框架 -framework-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        
+        <!-- !!僅有 框架類的js framwork 能放在 <head>裡面-->
+        <!-- bootstrap - js框架 -framework-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+        <link href="style.css" rel="stylesheet">      
+    </head>
+
+    <body>
+        <header>
+            <!-- 上方導航列 在container裡面 做出左右留白效果-->
+            <div class="container">
+                <!-- 上方導航列 直接複製 bootstrap 程式碼-->
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                    <a class="navbar-brand logo" href="#">Party派對</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                       
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">主頁</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">最新派對</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">常見問題</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">聯絡我們</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+
+        <section id="intro">
+            <div class="bg-light">  <!-- 標題字下 背景色，影片使用舊名 jumbotron影片就用法為 jumbotron(現改用bg-light)-->
+                <div class="container"> <!-- 主標題區塊內容-->
+                    <div class="row">   <!-- 使用下列  格 需搭配使用 row需搭配使用 row-->
+                        <div class="col-md-12"> <!-- 占用12格 用法 可參見bootstrap-->
+                            <h1>全香港最好玩party</h1>
+                            <p class="lead">生活鬱悶?加入我們一塊玩吧!</p>
+                            <a class="btn" href="#">參加派對</a>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </section>
+
+        <section class="second">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2 text-center">
+                        <h3>加入party一起去狂歡</h3>
+                        <div class="row">
+                            <div class="col-md-4"> <!--左邊4格 放user圓形頭貼-->
+                                <img class="user" src="ima/user.png" alt="">
+                                <h5>搞手Danny</h5>
+                            </div>
+                            <div class="col-md-8 text-start"> <!--右邊8格 放敘述文字-->
+                                <p class="lead">無論你是單身一人，或是一群朋友想去狂歡，只要你是cool guys/girls，都歡迎加入我們這個大家庭!</p>
+                                <p>你好!我叫Denny是party的活動搞手之一。記得5年前我在加拿大畢業後，剛回到香港，朋友並不多，為了擴大生活圈，我嘗試舉辦各式各樣的派對。直至今日，我已經舉辦過超過100場不同形式的派對。除了結識到很多不同圈子得朋友，也度過一段非常充實的狂歡歲月</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam delectus unde dolor.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="latest">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h3>最新派對</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">  <!--原為outer，卡片整體-->
+                            <a href="#">    <!--用<a> 超連結 包住能點選的區塊-->
+                                <div class="upper"> <!--卡片上半 圖-->
+                                    <img src="ima/bg1.png" alt="">
+                                    <div class="innertext">
+                                        <span>可報名</span>
+                                        <h4>男:TWD380 女:TWD280</h4>
+                                    </div>
+                                </div>
+                                <div class="lower"> <!--卡片下半 字-->
+                                    <h3>狂歡派對(旅行篇)-1月</h3>
+                                    <span>香港銅鑼灣怡和街2-6號</span>
+                                    <span>2021/01/25 20:00</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">  <!--原為outer，卡片整體-->
+                            <a href="#">    <!--用<a> 超連結 包住能點選的區塊-->
+                                <div class="upper"> <!--卡片上半 圖-->
+                                    <img src="ima/bg1.png" alt="">
+                                    <div class="innertext">
+                                        <span>可報名</span>
+                                        <h4>男:TWD380 女:TWD280</h4>
+                                    </div>
+                                </div>
+                                <div class="lower"> <!--卡片下半 字-->
+                                    <h3>狂歡派對(旅行篇)-1月</h3>
+                                    <span>香港銅鑼灣怡和街2-6號</span>
+                                    <span>2021/01/25 20:00</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">  <!--原為outer，卡片整體-->
+                            <a href="#">    <!--用<a> 超連結 包住能點選的區塊-->
+                                <div class="upper"> <!--卡片上半 圖-->
+                                    <img src="ima/bg1.png" alt="">
+                                    <div class="innertext">
+                                        <span>可報名</span>
+                                        <h4>男:TWD380 女:TWD280</h4>
+                                    </div>
+                                </div>
+                                <div class="lower"> <!--卡片下半 字-->
+                                    <h3>狂歡派對(旅行篇)-1月</h3>
+                                    <span>香港銅鑼灣怡和街2-6號</span>
+                                    <span>2021/01/25 20:00</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="email">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2 text-center">
+                        <h3>加入party的email list</h3>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-8 offset-md-2 text-start">
+                        <p>即時推送最新派對資訊不錯過</p>
+                        <div class="input-group input-group-lg">
+                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                            <a class="btn" href="#">提交</a>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

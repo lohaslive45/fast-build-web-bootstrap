@@ -1,0 +1,144 @@
+/*全域字體設定*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+p,a,input,label,textarea,span,ul,li{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*上面區域nav*/
+header .logo{
+    font-weight: 800;
+}
+
+header li{
+    margin: 0 10px;
+}
+
+
+/*中間區域*/
+.btn{
+    background: #f05f5c;
+    color: white;
+    padding: 9px 26px;
+    border-radius: 20px;
+}
+
+/*主頁標題 -背景- 上下高度*/
+#intro .bg-light{
+    height: 70vh;
+}
+
+/*主頁標題 -內容- 上下置中*/
+#intro .container{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/*主頁標題 -標題字h1- */
+#intro h1{
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/*第二大區塊 -主頁下方*/
+.user{
+    width: 100px;
+    margin-bottom: 12px;
+}
+
+h3{
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+.second{
+    padding: 80px 0;
+}
+
+.second h3{
+    margin-bottom: 80px;
+}
+
+p{
+    color: #707070;
+}
+
+p.lead{ 
+    color: black;
+}
+
+/*最下一層 */
+#latest{
+    padding: 80px 0;
+    background: rgb(248, 248, 248);
+}
+
+#latest h3{
+    margin-bottom: 20px;
+}
+
+img{
+    max-width: 100%;
+}
+
+#latest .upper{
+    position: relative;
+}
+
+#latest .innertext{
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+}
+
+.card{  /*在圖文卡片外圍呈現陰影 */
+    background: white;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.8);
+}
+
+.innertext span ,h4{
+    color: white; 
+}
+
+.innertext span{
+    background: rgba(255, 255, 255, 0.3);
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+.innertext h4{
+    font-size: 22px;
+    margin-top: 18px;
+}
+
+.lower h3{
+    font-size: 24px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.lower{
+    padding: 6px 20px 20px 20px ;
+}
+
+#latest a{
+    color: black;
+}
+
+#latest a:hover{
+    text-decoration: none;
+}
+
+/*下方最後一欄位 email*/
+
+#email{
+    padding: 80px 0;
+}
+
